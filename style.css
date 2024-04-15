@@ -3,7 +3,6 @@
     src: url('fonts/Montserrat-Regular.ttf') format('truetype'); 
 }
 
-
 body{
     margin: 0px;
     padding: 0px;
@@ -22,8 +21,6 @@ header{
     position: absolute;
     left: 12%;
 }
-
-
 
 /* main */
 main{
@@ -48,6 +45,7 @@ main{
 
 .right_obj{
     width: 55%;
+    margin-left: 25px;
 }
 
 .txt_img{
@@ -61,12 +59,19 @@ main{
     font-style: normal;
     font-weight: 500;
     line-height: 34px; /* 141.667% */
-    width: 63.5%;
+    width: 75%;
 } 
-
 
 .btn_tg_txt{
     color: white;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px; /* 141.667% */
+}
+.btn_tw_txt{
+    color: black;
     font-family: 'Montserrat';
     font-size: 17px;
     font-style: normal;
@@ -85,10 +90,26 @@ main{
     align-items: center;
 }
 
+.btn_tw{
+    cursor: pointer;
+    width: 175px;
+    height: 42px;
+    border-radius: 8px;
+    margin-top: 1%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
 .btn{
     text-decoration: none;
 }
 
+.logo_tw{
+    width: 25px;
+}
 .logo_tg{
     width: 25px;
     margin-left: 5px;
@@ -117,12 +138,7 @@ footer{
     position:absolute;
 }
 
-
-
-
-
-
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     
     main{
         flex-direction: column;
@@ -146,6 +162,7 @@ footer{
         flex-direction: column;
         align-items: center;
         text-align: center;
+        margin-left: 0px;
     }
     
     .txt_img{
@@ -165,9 +182,10 @@ footer{
     
     }
     .btn_tg{
-        width: 65%;
+        width: 35%;
         height: 35px;
-        margin-top: 20px;
+        position: absolute;
+        left: 10%;
     }
     
     .btn{
@@ -175,10 +193,32 @@ footer{
         text-decoration: none;
         display: flex;
         justify-content: center;
+
     }
     
     .logo_tg{
         width: 25px;
         margin-right: 15px;
+    }
+
+
+    .logo_tw{
+        width: 20px;
+        margin-left: 8px;
+    }
+
+    .btn_tw_txt{
+        font-size: 13px;
+    }
+    
+    .btn_tw{
+        cursor: pointer;
+        position: absolute;
+        right: 10%;
+        width: 35%;
+        height: 35px;
+        border-radius: 8px;
+        margin-top: 1%;
+        margin-left: 0px;
     }
 }
