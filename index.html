@@ -13,11 +13,11 @@
     </header>
     <main>
         <div class="left_obj">
-            <img src="assets/img_tocen.svg" class="tocen_img" style="pointer-events:none;">
+            <img src="assets/img_tocen.png" class="tocen_img" style="pointer-events:none;">
         </div>
         <div class="right_obj">
             <img src="assets/h1.png" class="txt_img">
-            <p class="right_obj_txt">The most memable memcoin on TON blockchain. The main aim is to popularize blockchain technologies to the wide audience. The Dogs n Pepes have had their day. It’s time for HAMI...</p>
+            <p class="right_obj_txt">The most memable memcoin on the TON blockchain. The main goal is to popularize blockchain technologies among a wide audience through fun games and interactives. Dogs and Pepes have had their time. It's time for HAMI....</p>
             <a href="https://t.me/hami_token_bot" class="btn">
                 <div class="btn_tg">
                     <p class="btn_tg_txt">TELEGRAM</p>
