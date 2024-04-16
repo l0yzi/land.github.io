@@ -7,6 +7,10 @@ body{
     margin: 0px;
     padding: 0px;
 }
+
+.bg{
+    background-color: white;
+}
 /* header */
 header{
     position: fixed;
@@ -221,4 +225,30 @@ footer{
         margin-top: 1%;
         margin-left: 0px;
     }
+}
+
+
+@media screen and (max-width: 800px) and (min-width: 500px){
+    .txt_img{
+        width: 250px;
+    }
+
+    .right_obj_txt{
+        font-size: 15px;
+    }
+
+    .right_obj{
+        width: 70%;
+    }
+    .btn_tg{
+        width: 140px;
+        margin-top: 1%;
+    
+    }
+    
+    .btn_tw{
+        width: 140px;
+        
+    }
+
 }
